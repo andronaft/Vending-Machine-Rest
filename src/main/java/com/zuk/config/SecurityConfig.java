@@ -18,7 +18,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     private static final String ADMIN_ENDPOINT = "/api/v1/admin/**";
     private static final String AUTH_ENDPOINT = "/api/v1/auth/**";
-
+    private static final String VENDING_ENDPOINT = "/api/v1/vending/**";
     private static final String STATIC_ENDPOINT = "/static/**";
     private static final String USERS_ENDPOINT = "/api/v1/users/**";
     private static final String TOKEN_ENDPOINT = "/api/v1/token/**";
@@ -51,6 +51,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers(STATIC_ENDPOINT).permitAll()
                 .antMatchers(INDEX_ENDPOINT).permitAll()
                 .antMatchers(ITEM_ENDPOINT).permitAll()
+                .antMatchers(VENDING_ENDPOINT).permitAll()
                 .antMatchers(USERS_ENDPOINT).hasRole("USER")
                 .antMatchers(ADMIN_ENDPOINT).hasRole("ADMIN")
                 .anyRequest().authenticated()

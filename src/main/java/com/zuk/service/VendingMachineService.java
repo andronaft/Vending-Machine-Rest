@@ -10,7 +10,9 @@ public interface VendingMachineService {
     ArrayList<VendingMachine> getByName(String name);
 
     VendingMachine stealMoney(Long vendingMachineId);
-    VendingMachine putMoney(int amountOfMoney);
+    VendingMachine putMoney(int amountOfMoney,Long vendingMachineId);
+
+    VendingMachine giveChange(Long vendingMachineId);
 
     VendingMachine save(VendingMachine vendingMachine);
 }
