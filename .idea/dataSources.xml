@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="d47rhj1fb2te3j@ec2-54-246-90-10.eu-west-1.compute.amazonaws.com" uuid="0ecc3f2f-d7c1-46aa-97da-e31cfeb69bc6">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-54-246-90-10.eu-west-1.compute.amazonaws.com:5432/d47rhj1fb2te3j?sslmode=require</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="miro" uuid="12593f6f-46ca-4540-9d98-1fefe9237c06">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://89.184.77.141:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="andreyexdb@176.114.15.64" uuid="e6273fd8-3569-4dfb-a43b-d2ef834a8f3f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://176.114.15.64:5432/andreyexdb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Podokonik" check-outdated="false" uuid="ff16f25f-e63b-4ed1-81d9-f1cebf5dea53">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://185.16.231.211:5432/andriiDB</jdbc-url>
+    </data-source>
+  </component>
+</project>
